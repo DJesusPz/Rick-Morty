@@ -1,0 +1,96 @@
+/* app.css */
+body {
+  background-image: url('https://images7.alphacoders.com/133/1335145.jpg'); /* Fondo de pantalla */
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Texto blanco */
+}
+
+.title {
+  font-size: 3rem; /* Un poco más grande */
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px; /* Espacio adicional hacia abajo */
+}
+
+.container {
+  margin: 50px auto; /* Mayor margen superior e inferior */
+  max-width: 1200px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Tamaño flexible de las tarjetas */
+  gap: 20px; /* Espacio entre tarjetas */
+}
+
+.btns {
+  display: flex;
+  justify-content: center; /* Centrar botones */
+  margin-bottom: 20px; /* Espacio adicional hacia abajo */
+}
+
+.btn {
+  padding: 10px 20px; /* Botones un poco más grandes */
+  border: none; /* Sin bordes */
+  border-radius: 5px;
+  background: #00aaff; /* Azul característico de Rick and Morty */
+  color: #fff; /* Texto blanco */
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s; /* Transición suave */
+}
+
+.btn:hover {
+  background: #0094e0; /* Cambio de color al pasar el mouse */
+}
+
+.character {
+  background: rgba(0, 0, 0, 0.7); /* Fondo oscuro semi-transparente para las tarjetas */
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+}
+
+.character img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px; /* Espacio adicional hacia abajo */
+}
+/* app.css */
+
+
+/* app.css */
+.navbar {
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px; /* Aumentamos el padding */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  width: 100%;
+  font-family: 'Comic Sans MS', cursive; /* Cambiamos la fuente a Comic Sans MS */
+}
+
+.logo img {
+  width: 180px; /* Aumentamos el tamaño del logo */
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('https://wallpapers.com/images/hd/rick-and-morty-cool-starry-ykl12xt65zj599p7.jpg');
+  background-size: cover;
+  opacity: 0.5; /* Ajustamos la opacidad de la imagen de fondo */
+  z-index: -1; /* La colocamos detrás del contenido */
+}
+
+
